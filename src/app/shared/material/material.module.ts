@@ -4,12 +4,18 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatBadgeModule} from '@angular/material/badge';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatTableModule } from '@angular/material/table';
+import { MatSortModule } from '@angular/material/sort';
 
 const materials = [
   MatButtonModule,
   MatCardModule,
   MatAutocompleteModule,
-  MatBadgeModule
+  MatBadgeModule,
+  MatTableModule,
+  MatPaginatorModule,
+  MatSortModule,
 ]
 
 @NgModule({
