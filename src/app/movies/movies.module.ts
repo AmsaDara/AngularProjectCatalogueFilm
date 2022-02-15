@@ -7,13 +7,16 @@ import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MovieFormComponent } from './movie-form/movie-form.component';
+import { MovieTableComponent } from './movie-table/movie-table.component';
+
 
 
 @NgModule({
   declarations: [
     MovieContainerComponent,
     MovieListComponent,
-    MovieFormComponent
+    MovieFormComponent,
+    MovieTableComponent
   ],
   imports: [
     CommonModule,

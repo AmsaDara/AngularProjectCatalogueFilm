@@ -7,6 +7,9 @@ import {MatBadgeModule} from '@angular/material/badge';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatSelectModule} from '@angular/material/select';
+import { MatInputModule } from '@angular/material/input'
 
 const materials = [
   MatButtonModule,
@@ -16,6 +19,9 @@ const materials = [
   MatTableModule,
   MatPaginatorModule,
   MatSortModule,
+  MatFormFieldModule,
+  MatSelectModule,
+  MatInputModule,
 ]
 
 @NgModule({
@@ -24,8 +30,6 @@ const materials = [
     CommonModule,
     materials,
   ],
-  exports:[
-    materials
-  ]
+  exports: [materials]
 })
 export class MaterialModule { }
